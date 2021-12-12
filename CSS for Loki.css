@@ -4,3 +4,21 @@ margin-right: auto;
 width: 50%;
 display: block;
 }
+
+img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+p {
+    text-align: center;
+}
+.lokiimg {
+    height: 30%;
+    width: 30%;
+}
