@@ -17,9 +17,6 @@ display: block;
     border: 5px;
 }
 
-.imgclass:hover {
-    background: url('Loki_Time-Traveler_Profile.jpg')
-}
 
 p {
     text-align: center;
@@ -27,15 +24,41 @@ p {
 .lokiimg2 {
     height: 30%;
     width: 30%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 40%;
+    margin-right: 50%;
     text-align: center;
     align: center;
     border-color: goldenrod;
     border: 5px;
+    border-radius: 50%;
 }
 
 .button {
     background-color: goldenrod;
     border-color: black;
 }
+
+
+
+
+  .picture {
+    position: relative;
+    margin-left: 45%;
+    margin-right: 0%;
+}
+  
+  .picture img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .picture .hover {
+    display: none;
+  }
+  
+  .picture:hover .hover {
+    display: block;
+  }
