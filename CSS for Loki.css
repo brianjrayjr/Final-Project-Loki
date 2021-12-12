@@ -13,6 +13,8 @@ display: block;
     margin-right: 25%;
     text-align: center;
     align: center;
+    border-color: goldenrod;
+    border: 5px;
 }
 
 p {
@@ -25,6 +27,8 @@ p {
     margin-right: 25%;
     text-align: center;
     align: center;
+    border-color: goldenrod;
+    border: 5px;
 }
 
 
