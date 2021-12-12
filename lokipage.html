@@ -20,8 +20,13 @@
         <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
+
         <p> <h2 class = 'box'>Meet the Characters</h2></p>
-        <table>
+        
+        <p class = 'box'>Click the button if you would like to sort the table by name!</p>
+        <p><button onclick="sortTable()", class = 'button'>Sort</button></p>
+
+        <table id = "myTable">
             <tr>
                 <td><h3 class = "box">Loki</h3>
                     <img src = "Loki_Time-Traveler_Profile.jpg", class = "lokiimg2">
@@ -75,11 +80,32 @@
             </tr>
         </table>
 
+        <script>
+            function sortTable() {
+              var table, rows, switching, i, x, y, shouldSwitch;
+              table = document.getElementById("myTable");
+              switching = true;
+              
 
-
-
-
-
+              while (switching) {
+                switching = false;
+                rows = table.rows;
+                for (i = 1; i < (rows.length - 1); i++) {
+                  shouldSwitch = false;
+                  x = rows[i].getElementsByTagName("td")[0];
+                  y = rows[i + 1].getElementsByTagName("td")[0];
+                  if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                  }
+                }
+                if (shouldSwitch) {
+                  rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                  switching = true;
+                }
+              }
+            }
+            </script>
 
 
         <p style = "text-align:center", class = "box">
