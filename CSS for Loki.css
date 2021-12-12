@@ -17,6 +17,10 @@ display: block;
     border: 5px;
 }
 
+.imgclass:hover {
+    background: url('Loki_Time-Traveler_Profile.jpg')
+}
+
 p {
     text-align: center;
 }
@@ -31,4 +35,7 @@ p {
     border: 5px;
 }
 
-
+.button {
+    background-color: goldenrod;
+    border-color: black;
+}
