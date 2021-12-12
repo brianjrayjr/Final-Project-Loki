@@ -1,0 +1,99 @@
+/* a class for all the elements inside the body of a page */
+.box {
+    background-color: rgba(9, 31, 20, 0.712);
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    color: rgb(175, 211, 181);
+}
+
+.header {
+    width:auto;
+    height: 90px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    /* background for all pages */ 
+  background-image: url('images/snakeskin.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 150%;
+  background-position: top center;
+  font-family: 'Verdana', sans-serif;
+  margin: 0px;
+  
+}
+
+
+
+
+/* NAV BAR: */
+
+        /* Add a black background color to the top navigation */
+        .navbar {
+            background-color: rgb(9, 31, 20);
+            overflow: hidden;
+            font-family: 'American Typewriter', serif;
+          }
+
+        .navbar a:link {
+            color: rgb(175, 211, 181);
+        }
+          
+          /* style of the links in navbar */
+          .navbar a {
+            float: left;
+            color: rgb(175, 211, 181);
+            text-align: center;
+            padding: 20px 18px;
+            text-decoration: none;
+            font-size: 22px;
+          }
+          
+          /* Links you hover over are a different color */
+          /* To do: figure out how to get the active link to be highlighted when I hover over it */
+          .navbar a:hover, .navbar a:visited {
+            background-color: rgb(9, 31, 20);
+            color: rgb(175, 211, 181);
+          }
+          
+          /* the current link is darkened */
+          .navbar a.active {
+            background-color: rgb(9, 31, 20);
+            color: rgb(175, 211, 181);
+          }
+
+          /* Makes the about tab go to the right of the page*/
+          .navbar #about {
+            float: right;
+          }
+
+
+      .bodybox {
+        width: 650px;
+        background-color: #ff950052;
+        text-align: center;
+        margin-left: auto; 
+        margin-right: auto;
+        padding: 10px;
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding-bottom: 50px; 
+        padding-top: 35px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+      }
+
+    a:visited{
+        color:#32744b;
+    }
+
+    a:link {
+      color:#32744b;
+    }
+
+    a:hover {
+      color:#86c79f;
+    }
