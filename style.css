@@ -3,8 +3,12 @@
     background-color: rgba(9, 31, 20, 0.712);
     text-align: center;
     margin: 40px;
-    padding: 10px;
+    padding: 20px;
     color: rgb(175, 211, 181);
+}
+
+#center {
+  text-align: center;
 }
 
 .header {
