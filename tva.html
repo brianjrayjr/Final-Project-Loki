@@ -62,10 +62,28 @@
 
 
 
+        <script>
+            let type = document.createElement("h1")
+            let message = document.createTextNode("More About the TVA")
+            type.setAttribute("class", "box")
+            type.appendChild(message)
+            document.body.appendChild(type)
 
 
 
+            let type2 = document.createElement("p")
+            let message2 = document.createTextNode("Find out more about the TVA by watching Loki on ")
+            type2.setAttribute("class", "box")
+            type2.appendChild(message2)
+            document.body.appendChild(type2)
 
+            let type3 = document.createElement("a")
+            type3.setAttribute("href", "https://www.disneyplus.com/home")
+            type3.setAttribute("href", "https://www.disneyplus.com/home")
+            type3.innerHTML = "Disney Plus"
+            document.body.getElementsByTagName("p")[4].appendChild(type3)
+
+        </script>
 
   
 
