@@ -26,6 +26,10 @@ body {
   
 }
 
+#titleFont {
+  font-family: "Times New Roman", serif;
+}
+
 
 
 
@@ -35,7 +39,7 @@ body {
         .navbar {
             background-color: rgb(9, 31, 20);
             overflow: hidden;
-            font-family: 'American Typewriter', serif;
+            font-family: 'Times New Roman', serif;
           }
 
         .navbar a:link {
