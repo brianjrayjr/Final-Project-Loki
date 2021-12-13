@@ -60,3 +60,28 @@ p {
   .picture:hover .hover {
     display: block;
   }
+
+  .button {
+      background-color: goldenrod;
+      border-color: black;
+      height: 50px;
+      width: 100px;
+      margin-left: 45%;
+      margin-right: 50%;
+      font-size: large;
+      font-weight: bold;
+  }
+
+  .box2 {
+    background-color: rgba(0, 0, 0, 0.712);
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+td {
+    border-color: gold;
+    border-style: solid;
+    border-width: 5px;
+}
