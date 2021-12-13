@@ -12,7 +12,6 @@ display: block;
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
-    align: center;
     border-color: goldenrod;
     border: 5px;
 }
@@ -27,7 +26,6 @@ p {
     margin-left: 40%;
     margin-right: 50%;
     text-align: center;
-    align: center;
     border-color: goldenrod;
     border: 5px;
     border-radius: 50%;
