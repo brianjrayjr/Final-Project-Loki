@@ -7,6 +7,25 @@
     color: rgb(175, 211, 181);
 }
 
+.button {
+  background-color: goldenrod;
+  border-color: black;
+  height: 50px;
+  width: 100px;
+  margin-left: 45%;
+  margin-right: 50%;
+  font-size: large;
+  font-weight: bold;
+}
+
+.box2 {
+  background-color: rgba(0, 0, 0, 0.712);
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
 #center {
   text-align: center;
 }
